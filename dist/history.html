@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="../style/history.css">
+    <link rel="stylesheet" href="../style/header.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid containerFull">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="toggle" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div class="divImg">
+                        <img class="card-img" src="../images/vinhImg/logo.png" alt="">
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li class="position-relative liLevel1">
+                                <a class="aLevel1">Products <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="ulHover">
+                                    <li><a>Motherboards</a></li>
+                                    <li><a>Monitors</a></li>
+                                    <li><a>Memorys</a></li>
+                                    <li><a>Graphic Cards</a></li>
+                                    <li><a>PC Cases</a></li>
+                                    <li><a>CPU Coolers</a></li>
+                                    <li><a>Power Supplys</a></li>
+                                    <li><a>Laptops</a></li>
+                                </ul>
+                            </li>
+                            <li class="position-relative liLevel1">
+                                <a class="aLevel1">Explore <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="ulHover">
+                                    <li><a>News</a></li>
+                                    <li><a>Blogs</a></li>
+                                    <li><a>Wallpapers</a></li>
+                                    <li><a href="Compare.html">Comparision</a></li>
+                                </ul>
+                            </li>
+                            <li class="position-relative liLevel1">
+                                <a class="aLevel1">Service <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="ulHover">
+                                    <li><a>Warranty</a></li>
+                                    <li><a>About Us</a></li>
+                                    <li><a>About Gigabyte</a></li>
+                                    <li><a>Contact Us</a></li>
+                                </ul>
+                            </li>
+                            <li class="position-relative liLevel1"><a class="aLevel1">PC Building</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="rightNAV">
+                        <ul>
+                            <li class="liSearch"><a><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                            <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                            <li><a><i class="fa-solid fa-user"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="logoGiga">
+                        <img class="card-img" src="../images/vinhImg/logo_gigabyte_white.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header menu mobile  -->
+
+    <div class="offcanvas offcanvas-start menuMobile" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+            <div class="formSearch">
+                <input type="text" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <button class="buttonClose" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-x"></i></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle buttonDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark ulDropdown">
+                    <li><a class="dropdown-item" href="#">Motherboard</a></li>
+                    <li><a class="dropdown-item" href="#">PC Case</a></li>
+                    <li><a class="dropdown-item" href="#">Moninitor</a></li>
+                    <li><a class="dropdown-item" href="#">Graphics Card</a></li>
+                    <li><a class="dropdown-item" href="#">Memory</a></li>
+                    <li><a class="dropdown-item" href="#">Solid State Drive</a></li>
+                    <li><a class="dropdown-item" href="#">CPU Cooler</a></li>
+                    <li><a class="dropdown-item" href="#">Power Supply</a></li>
+                    <li><a class="dropdown-item" href="#">Laptop</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle buttonDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Explore
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark ulDropdown">
+                    <li><a class="dropdown-item" href="#">News</a></li>
+                    <li><a class="dropdown-item" href="#">Blogs</a></li>
+                    <li><a class="dropdown-item" href="#">Wallpaper</a></li>
+                    <li><a class="dropdown-item" href="Compare.html">Comparision</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle buttonDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Service
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark ulDropdown">
+                    <li><a class="dropdown-item" href="#">Warranty</a></li>
+                    <li><a class="dropdown-item" href="#">About AORUS</a></li>
+                    <li><a class="dropdown-item" href="#">About GIGABYTE</a></li>
+                    <li><a class="dropdown-item" href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <button class="buttonDropdown">PC Building</button>
+        </div>
+    </div>
+    <div class="main col-12">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-12 left">
+                    <div class="userProfile item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="col-md-8">
+                                <span>User Profile</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="userProfile item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <i class="fa-solid fa-user-pen"></i>
+                            </div>
+                            <div class="col-md-8">
+                                <span>User Profile</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="userProfile item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <i class="fa-solid fa-shirt"></i>
+                            </div>
+                            <div class="col-md-8">
+                                <span>Oder History</span>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="userProfile item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <i class="fa-solid fa-right-from-bracket"></i>
+                            </div>
+                            <div class="col-md-8">
+                                <span>Sign Out</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobile">
+                        <select> 
+                            <option value="" selected disabled hidden>Menu</option>
+                            <option value="1">User Profile</option>
+                            <option value="2">User Profile</option>
+                            <option value="3">Oder History</option>
+                            <option value="4">Sign Out</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9 col-12 right">
+                    <div class="oderHistory">
+                        <h4>Oder History</h4>
+                    </div>
+                    <div class="remove">
+                        <h6>Remove All Order </h6>
+                    </div>
+                    <div class="product col-md-12">
+                        <div class="row" style="padding: 15px;background-color: black; margin-left: 0;">
+                            <div class="col-md-4">
+                                <div class="">
+                                    <div class="date"  style="margin-left: 15px;color: rgb(225, 225, 225)" >
+                                        <h6 >Date: 22/03/2020</h6>
+                                    </div>
+                                    <div class="img">
+                                        <img src="../image_nkt/21237.png" alt="" class="card-img"  >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 detail">
+                                <div class="subtotal">
+                                    <h6 style="color: rgb(183, 183, 183) ;">Subtotal : $5000</h6>
+                                </div>
+                                <div class="name">
+                                    <h4 style="color: #F86902;">AORUS C300 GLASS </h4>
+                                </div>
+                                <div class="branch">
+                                    <h5>PC Case</h5>
+                                </div>
+                                <div class="consignee">
+                                    <h6>Consignee : <span>Customer</span></h6>
+                                </div>
+                                <div class="address">
+                                    <h6>Address : <span>Ha Noi</span></h6>
+                                </div>
+                                <div class="Telephone Number : ">
+                                    <h6>Telephone Number: <span>0123456789</span></h6>
+                                </div>
+                               
+                               
+                            </div>
+                            <div class="col-md-2 price">
+                                <div class="delete">
+                                    <span>Remove</span>
+                                </div>
+                                <div class="price">
+                                    <h5>Price : $4000 </h5>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="see">
+                        <span><i  style="position: absolute; right: 40%;font-size: 30px;color: white;cursor:pointer ;" class="fa-solid fa-circle-chevron-down"></i></span>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- main mobile  -->
+    <div class="menu-mobile position-relative" >
+        <h4 style="position: absolute;font-size: 30px;color:#F86902;margin-bottom: 0px;text-align: center;top: 15%;right: 40%;">
+            Oder History
+        </h4>
+        <div class="row" style="margin-bottom: 20px;">
+           
+           
+            <div class="col-md-4 col-4" style="margin-top: 200px;">
+               
+                <div class="mobile">
+                    <select> 
+                        <option value="" selected disabled hidden>Menu</option>
+                        <option value="1">User Profile</option>
+                        <option value="2">User Profile</option>
+                        <option value="3">Oder History</option>
+                        <option value="4">Sign Out</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-8 col-8"  style="margin-top: 200px;">
+                <div class="remove">
+                    <h6>Remove All Order </h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="product col-md-12 position-relative">
+                <div class="row" style="padding: 15px;background-color: black; margin-left: 0;">
+                    <div class="col-md-4 col-4">
+                        <div class="row">
+                            <div class="date"  style="color: rgb(225, 225, 225)" >
+                                <h6 >Date: 22/03/2020</h6>
+                            </div>
+                            <div class="img">
+                                <img src="../image_nkt/21237.png" alt="" class="card-img"  >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-6 detail">
+                        <div class="subtotal">
+                            <h6 style="color: rgb(183, 183, 183) ;">Subtotal : $5000</h6>
+                        </div>
+                        <div class="name">
+                            <h4 style="color: #F86902;">AORUS C300 GLASS </h4>
+                        </div>
+                        <div class="branch">
+                            <h5>PC Case</h5>
+                        </div>
+                        <div class="consignee">
+                            <h6>Consignee : <span>Customer</span></h6>
+                        </div>
+                        <div class="address">
+                            <h6>Address : <span>Ha Noi</span></h6>
+                        </div>
+                        <div class="Telephone Number : ">
+                            <h6>Telephone Number: <span>0123456789</span></h6>
+                        </div>
+                       
+                       
+                    </div>
+                    <div class="col-md-3 col-2 price">
+                        <div class="delete">
+                            <span>Remove</span>
+                        </div>
+                        <div class="price">
+                            <h5>Price : $4000 </h5>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="see">
+                <span><i  style="position: absolute; right: 45%;font-size: 30px;color: white;cursor:pointer ;top: 67%;" class="fa-solid fa-circle-chevron-down"></i></span>
+            </div>
+        </div>
+    </div>
+    
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

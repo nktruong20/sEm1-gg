@@ -288,7 +288,7 @@ form label{
     background-color: #cd5600 ;
     transition: 0.5s all;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 500px) {
     .background{
         background-image: url('../image_nkt/hinh-anh-dan-pc-khung-dep-va-chat-nhat.jpg');
         width: 100%;
@@ -302,7 +302,7 @@ form label{
     
     .register{
         background-color: black;
-        width: 625px;
+        width: 100%;
         height: 800px;
         margin: 0 auto;
         opacity: 0.9;
@@ -414,7 +414,7 @@ form label{
     
     .register{
         background-color: black;
-        width: 700px;
+        width: 100%;
         height: 800px;
         margin: 100px auto;
         opacity: 0.9;
